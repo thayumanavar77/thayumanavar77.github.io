@@ -1,50 +1,24 @@
-#- name: YouTube
-#  url: http://www.youtube.com/PhlowMedia
-#  class: icon-youtube
-#  title: "Videos, Video-Anleitungen und Filme von Phlow auf YouTube"
-
 - name: GitHub
   url: http://github.com/thayumanavar77
   class: icon-github
   title: github
 
 - name: Linkedin
-  url: http://github.com/thayumanavar77
-  class: icon-github
+  url: https://www.linkedin.com/in/thayumanavar
+  class: icon-linkedin
   title: linkedin
 
 - name: Twitter
-  url: http://twitter.com/fogresearch
+  url: http://twitter.com/thayumanavar
   class: icon-twitter
   title: twitter
+
+- name: YouTube
+  url: http://www.youtube.com/thayumk
+  class: icon-youtube
+  title: videos
 
 - name: Facebook
   url: https://www.facebook.com/thayumanavar
   class: icon-facebook
   title: facebook
-
-#- name: Soundcloud
-#  url: http://soundcloud.com/phlow
-#  class: icon-soundcloud
-#  title: "Sounds und Downloads und mehr"
-
-
-#- name: Instagram
-#  url: http://instagram.com/phlowmedia
-#  class: icon-instagram
-#  title: "Bilder und Impressionen mit und ohne Filter..."
-
-#- name: Pinterest
-#  url: http://www.pinterest.com/phlowmedia/
-#  class: icon-pinterest
-#  title: "Bilder, Fotos, Illustrationen, Grafiken sammeln..."
-
-#- name: Mixcloud
-#  url: http://www.mixcloud.com/phlow/
-#  class: icon-cloud
-#  title: "Mixe, was sonst?"
-
-# - name: Xing
-#   url: https://www.xing.com/profile/Moritzmo_Sauer
-#   class: icon-xing
-#   title: Xing Profil

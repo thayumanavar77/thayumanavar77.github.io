@@ -16,13 +16,14 @@ slogan: "Force Awakens"
 
 
 # The description is used on homepage and in the footer to quickly describe your website. Use a maximum of 150 characters for SEO-purposes.
-description: "»Some description goes here!"
+description: "Personal Home Page"
 
 
 # This URL is the main adresse. Don't include a slash at the end.
 #
 url: "https://thayumanavar77.github.io"
-baseurl: "http://thayumanavar77.github.io"
+#baseurl: "http://thayumanavar77.github.io"
+baseurl: ""
 
 # This is for the editing function in _/includes/improve_content.html
 # Leave it empty if your site is not on GitHub/GitHub Pages
@@ -38,7 +39,7 @@ urlimg: "https://thayumanavar77.github.io/images/"
 
 
 # Logo size is 600x80 pixels
-logo: "logo.png"
+#logo: "logo.png"
 
 
 # Paginates all X entries
@@ -87,7 +88,7 @@ defaults:
       show_meta: false 	# Show metadata beneath all pages
       # sidebar:    		# Possible values › left, right › by default there will be no sidebar
       comments: false
-      author: "Yan Shvartzshnaider"
+      author: "Thayumanavar"
   -
     scope:
       path: ""        
@@ -96,7 +97,7 @@ defaults:
       show_meta: true   # Show metadata beneath all posts
       # sidebar:        # Possible values › left, right › by default there will be no sidebar
       comments: false
-      author: "Yan Shvartzshnaider"
+      author: "Thayumanavar"
 
 
 
@@ -204,5 +205,4 @@ sass:
 #
 # used in _includes/footer_scripts.html
 
-google_analytics_tracking_id: UA-63541329-1
-
+google_analytics_tracking_id: UA-71554294-1

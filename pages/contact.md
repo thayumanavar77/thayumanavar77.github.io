@@ -8,7 +8,7 @@ permalink: "/contact/"
 
 <form action="//formspree.io/thayumk@gmail.com"
       method="POST">
-	<input type="hidden" name="_subject" value="Email from Fognetworks" />
+	<input type="hidden" name="_subject" value="Email from thayumanavarsv.github.io" />
 	<input type="hidden" name="_next" value="//site.io/thanks.html" />
     Name: <input type="text" name="name">
     Your email: <input type="email" name="_replyto">	

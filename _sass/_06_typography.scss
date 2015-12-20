@@ -23,17 +23,28 @@ Check typography variables › _3_typography_settings.scss
 /* Links
 ------------------------------------------------------------------- */
 
-a,
-a:link {}
+a {
+  text-decoration:none;
+  color:#88E;
+}
+
+a:link {
+  text-decoration:none;
+  color: navy;
+}
 
 a:visited {
-        border-bottom: $grey-2;
+/* border-bottom: $grey-2; */
+  color: navy;
+
 }
 
 a:hover {
-        color: darken( $ci-1, 10% );
+/*        color: darken( $ci-1, 10% ); */
+  background-color: #EEE;
 }
 
+/*
 a:focus {
         color: lighten( $ci-1, 20% );
 }
@@ -41,7 +52,7 @@ a:focus {
 a:active {
         color: darken( $ci-1, 20% );
 }
-
+*/
 
 
 /* Customize Foundation Typography

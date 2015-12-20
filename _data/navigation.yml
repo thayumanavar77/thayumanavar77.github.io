@@ -1,10 +1,15 @@
-- title: About Me
+- title: Thayumanavar
   url: "/about/"
   side: left
 
+
+- title: About Me
+  url: "/about/"
+  side: right
+
 - title: Blog
   url: "/blog/"
-  side: left
+  side: right
   dropdown:
   - title: Blog
     url: "/blog/"
@@ -13,20 +18,11 @@
 
 - title: "Projects & Articles"
   url: "/propub/"
-  side: left
+  side: right
 
 - title: misc
   url: "/misc/"
-  side: left
-
-#- title: Blog
-#  url: "/blog/"
-#  side: left
-#  dropdown:
-#  - title: Blog
-#    url: "/blog/"
-#  - title: "Blog Archive"
-#    url: "/blog/archive/"
+  side: right
 
 - title: "Search"
   url: "/search/"
