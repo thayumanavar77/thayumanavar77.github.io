@@ -1,0 +1,37 @@
+- title: About Me
+  url: "/about/"
+  side: left
+
+- title: Blog
+  url: "/blog/"
+  side: left
+  dropdown:
+  - title: Blog
+    url: "/blog/"
+  - title: "Blog Archive"
+    url: "/blog/archive/"
+
+- title: "Projects & Articles"
+  url: "/propub/"
+  side: left
+
+- title: misc
+  url: "/misc/"
+  side: left
+
+#- title: Blog
+#  url: "/blog/"
+#  side: left
+#  dropdown:
+#  - title: Blog
+#    url: "/blog/"
+#  - title: "Blog Archive"
+#    url: "/blog/archive/"
+
+- title: "Search"
+  url: "/search/"
+  side: right
+
+- title: "Contact"
+  url: "/contact/"
+  side: right
