@@ -3,8 +3,8 @@
   <channel>
     <title>Thayumanavar</title>
     <description>Personal Home Page</description>
-    <link>https://thayumanavar77.github.io/</link>
-    <atom:link href="https://thayumanavar77.github.io/feed.xml" rel="self" type="application/rss+xml" />
+    <link>/</link>
+    <atom:link href="/feed.xml" rel="self" type="application/rss+xml" />
     
   </channel>
 </rss>

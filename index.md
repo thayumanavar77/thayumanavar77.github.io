@@ -5,14 +5,19 @@
 # this work, you have to use › layout: frontpage
 #
 layout: frontpage
-title: "THAYUMANAVAR S V"
-   #title: THAYUMANAVAR
-   #subheadline: "Headers With Style"
-   #caption:  Ian Furst. Licensed under CC BY-SA 3.0 via Wikimedia Commons 
-   #caption_url: https://commons.wikimedia.org/wiki/File:Tree_in_field_during_extreme_cold_with_frozen_fog.png#/media/File:Tree_in_field_during_extreme_cold_with_frozen_fog.png
-   #image_fullwidth: "Tree_in_field_during_extreme_cold_with_frozen_fog.png"
+title: "Thayumanavar"
+header:
+  image_fullwidth: "train_7.jpg"
+widget-1:
+  title: "About me"
+  url: '/about/'
+  text: 'welcome'
+  image: "kv_avk.jpg"
+widget-2:
+  title: "Blogs"
+  url: 'http://manavar.blogspot.com'
+  text: 'welcome'
+  image: "kv_avk.jpg"
+show_meta: false
+homepage: true
 ---
-
-# FORCE AWAKENS
-
-----

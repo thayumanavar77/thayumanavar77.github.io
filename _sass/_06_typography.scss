@@ -41,16 +41,16 @@ a:visited {
 
 a:hover {
 /*        color: darken( $ci-1, 10% ); */
-  background-color: #EEE;
+  background-color: #ffffff;
 }
 
 /*
 a:focus {
-        color: lighten( $ci-1, 20% );
+        color: lighten( fffff, 20% );
 }
 
 a:active {
-        color: darken( $ci-1, 20% );
+        color: darken( fffff, 20% );
 }
 */
 
@@ -97,7 +97,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-    font-size: $font-size-h1;
+/*    font-size: $font-size-h1; */
+    font-size: 27px;
+    font-variant: bold;
     margin-top: 0;
 }
 h2 {

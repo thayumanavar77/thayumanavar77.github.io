@@ -4,24 +4,9 @@
   
     
     <url>
-      <loc>https://thayumanavar77.github.io/404.html</loc>
+      <loc>/404.html</loc>
       
-        <lastmod>2015-12-23T15:12:03+05:30</lastmod>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.3</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>https://thayumanavar77.github.io/about/</loc>
-      
-        <lastmod>2015-12-23T15:12:03+05:30</lastmod>
+        <lastmod>2015-12-24T18:06:26+05:30</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -34,24 +19,9 @@
   
     
     <url>
-      <loc>https://thayumanavar77.github.io/blog/</loc>
+      <loc>/about/</loc>
       
-        <lastmod>2015-12-23T15:12:03+05:30</lastmod>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.3</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>https://thayumanavar77.github.io/contact/</loc>
-      
-        <lastmod>2015-12-23T15:12:03+05:30</lastmod>
+        <lastmod>2015-12-24T18:06:26+05:30</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -64,24 +34,9 @@
   
     
     <url>
-      <loc>https://thayumanavar77.github.io/design/</loc>
+      <loc>/blog/</loc>
       
-        <lastmod>2015-12-23T15:12:03+05:30</lastmod>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.3</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>https://thayumanavar77.github.io/documentation/</loc>
-      
-        <lastmod>2015-12-23T15:12:03+05:30</lastmod>
+        <lastmod>2015-12-24T18:06:26+05:30</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -94,24 +49,9 @@
   
     
     <url>
-      <loc>https://thayumanavar77.github.io/feed.xml</loc>
+      <loc>/contact/</loc>
       
-        <lastmod>2015-12-23T15:12:03+05:30</lastmod>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.3</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>https://thayumanavar77.github.io/headers/</loc>
-      
-        <lastmod>2015-12-23T15:12:03+05:30</lastmod>
+        <lastmod>2015-12-24T18:06:26+05:30</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -124,24 +64,9 @@
   
     
     <url>
-      <loc>https://thayumanavar77.github.io/humans.txt</loc>
+      <loc>/design/</loc>
       
-        <lastmod>2015-12-23T15:12:03+05:30</lastmod>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.3</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>https://thayumanavar77.github.io/</loc>
-      
-        <lastmod>2015-12-23T15:12:03+05:30</lastmod>
+        <lastmod>2015-12-24T18:06:26+05:30</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -154,24 +79,9 @@
   
     
     <url>
-      <loc>https://thayumanavar77.github.io/misc/</loc>
+      <loc>/documentation/</loc>
       
-        <lastmod>2015-12-23T15:12:03+05:30</lastmod>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.3</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>https://thayumanavar77.github.io/propub/</loc>
-      
-        <lastmod>2015-12-23T15:12:03+05:30</lastmod>
+        <lastmod>2015-12-24T18:06:26+05:30</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -184,24 +94,9 @@
   
     
     <url>
-      <loc>https://thayumanavar77.github.io/redirect-page/</loc>
+      <loc>/feed.xml</loc>
       
-        <lastmod>2015-12-23T15:12:03+05:30</lastmod>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.3</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>https://thayumanavar77.github.io/robots.txt</loc>
-      
-        <lastmod>2015-12-23T15:12:03+05:30</lastmod>
+        <lastmod>2015-12-24T18:06:26+05:30</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -214,24 +109,9 @@
   
     
     <url>
-      <loc>https://thayumanavar77.github.io/search/</loc>
+      <loc>/headers/</loc>
       
-        <lastmod>2015-12-23T15:12:03+05:30</lastmod>
-      
-      
-        <changefreq>monthly</changefreq>
-      
-      
-        <priority>0.3</priority>
-      
-    </url>
-    
-  
-    
-    <url>
-      <loc>https://thayumanavar77.github.io/sitemap.xml</loc>
-      
-        <lastmod>2015-12-23T15:12:03+05:30</lastmod>
+        <lastmod>2015-12-24T18:06:26+05:30</lastmod>
       
       
         <changefreq>monthly</changefreq>
@@ -244,9 +124,99 @@
   
     
     <url>
-      <loc>https://thayumanavar77.github.io/assets/css/styles_feeling_responsive.css</loc>
+      <loc>/</loc>
       
-        <lastmod>2015-12-23T15:12:03+05:30</lastmod>
+        <lastmod>2015-12-24T18:06:26+05:30</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>/misc/</loc>
+      
+        <lastmod>2015-12-24T18:06:26+05:30</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>/propub/</loc>
+      
+        <lastmod>2015-12-24T18:06:26+05:30</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>/redirect-page/</loc>
+      
+        <lastmod>2015-12-24T18:06:26+05:30</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>/search/</loc>
+      
+        <lastmod>2015-12-24T18:06:26+05:30</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>/sitemap.xml</loc>
+      
+        <lastmod>2015-12-24T18:06:26+05:30</lastmod>
+      
+      
+        <changefreq>monthly</changefreq>
+      
+      
+        <priority>0.3</priority>
+      
+    </url>
+    
+  
+    
+    <url>
+      <loc>/assets/css/styles_feeling_responsive.css</loc>
+      
+        <lastmod>2015-12-24T18:06:26+05:30</lastmod>
       
       
         <changefreq>monthly</changefreq>

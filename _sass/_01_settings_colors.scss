@@ -15,7 +15,7 @@
 /* Basics
 ------------------------------------------------------------------- */
 
-$text-color:       	#111;
+$text-color:       	#444;
 $body-font-color: 	$text-color;
 /* $body-bg:           #CAFCD8; */
 $body-bg:      #ffffff;
@@ -74,33 +74,33 @@ $grey-16: #0B0B0B;
 /* Topbar-Navigation
 ------------------------------------------------------------------- */
 
-$topbar-bg-color: #9191DA;
+/* $topbar-bg-color: $ci-5; */
 
 $topbar-dropdown-toggle-color: $ci-1;
 
-$topbar-link-color: navy;
-$topbar-link-color-hover: navy;
-$topbar-link-color-active: navy;
-$topbar-link-color-active-hover: #EEE;
+$topbar-link-color: #274095;
+$topbar-link-color-hover: #274095;
+$topbar-link-color-active: #274095;
+$topbar-link-color-active-hover: #274095;
 
-$topbar-dropdown-label-color: $ci-2;
-$topbar-dropdown-link-bg-hover: $ci-5;
+$topbar-dropdown-label-color: #fffff;
+$topbar-dropdown-link-bg-hover: #fffff;
 
-$topbar-link-bg-active: $ci-5; // Active Navigation Link
-$topbar-link-bg-hover: $ci-5;
-$topbar-link-bg-active-hover: $ci-2;
+$topbar-link-bg-active: #ffffff; // Active Navigation Link
+$topbar-link-bg-hover: #fffff;
+$topbar-link-bg-active-hover: #fffff;
 
 
-$topbar-dropdown-bg: $ci-6; // Background Mobile Navigation
-$topbar-dropdown-link-color: #000;
+$topbar-dropdown-bg: $ci-1; // Background Mobile Navigation
+$topbar-dropdown-link-color: #fffff;
 $topbar-dropdown-link-bg: $ci-2;
 
 $topbar-menu-link-color-toggled: $ci-1;
 $topbar-menu-icon-color-toggled: $ci-1;
 $topbar-menu-link-color: navy;
 $topbar-menu-icon-color: navy;
-$topbar-menu-link-color-toggled: $ci-5;
-$topbar-menu-icon-color-toggled: $ci-5;
+$topbar-menu-link-color-toggled: #ffffff;
+$topbar-menu-icon-color-toggled: #ffffff;
 
 
 

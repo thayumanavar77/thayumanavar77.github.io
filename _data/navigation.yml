@@ -12,15 +12,15 @@
   side: right
   dropdown:
   - title: Blog
-    url: "/blog/"
+    url: "http://manavar.blogspot.com"
   - title: "Blog Archive"
     url: "/blog/archive/"
 
-- title: "Projects & Articles"
+- title: "Interests"
   url: "/propub/"
   side: right
 
-- title: misc
+- title: "Resume"
   url: "/misc/"
   side: right
 
