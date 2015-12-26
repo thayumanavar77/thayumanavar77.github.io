@@ -24,7 +24,7 @@ description: "Personal Home Page"
 #url: ""
 url: "https://thayumanavar77.github.io"
 baseurl: "http://thayumanavar77.github.io"
-#baseurl: ""
+baseurl: ""
 
 # This is for the editing function in _/includes/improve_content.html
 # Leave it empty if your site is not on GitHub/GitHub Pages

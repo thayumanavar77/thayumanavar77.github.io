@@ -98,19 +98,22 @@ h1, h2, h3, h4, h5, h6 {
 
 h1 {
 /*    font-size: $font-size-h1; */
-    font-size: 27px;
+    font-size: 2.5rem;
     font-variant: bold;
+    color: #1079ac;
     margin-top: 0;
 }
 h2 {
     font-size: $font-size-h2;
-    margin: 1.563em 0 0 0;
+//    margin: 1.563em 0 0 0;
+    margin: 0 0 0 0;
 }
     .blog-index h2 {
         margin-top: 0;
     }
 h3 {
     font-size: $font-size-h3;
+    color: #cc0000;
     margin: 1.152em 0 0 0;
 }
 h4 {

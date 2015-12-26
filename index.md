@@ -5,7 +5,7 @@
 # this work, you have to use › layout: frontpage
 #
 layout: frontpage
-title: "Thayumanavar"
+title: ""
 header:
   image_fullwidth: "train_7.jpg"
 widget-1:
@@ -23,3 +23,4 @@ widget-2:
 show_meta: false
 homepage: true
 ---
+<h1>Thayumanavar's Web Home</h1>

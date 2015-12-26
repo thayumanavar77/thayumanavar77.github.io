@@ -2,7 +2,6 @@
   url: "/about/"
   side: left
 
-
 - title: About Me
   url: "/about/"
   side: right
@@ -14,9 +13,9 @@
   - title: Blog
     url: "http://manavar.blogspot.com"
   - title: "Blog Archive"
-    url: "/blog/archive/"
+    url: "http://manavar.blogspot.com"
 
-- title: "Interests"
+- title: "Projects/Courses"
   url: "/propub/"
   side: right
 

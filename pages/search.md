@@ -6,7 +6,8 @@ permalink: "/search/"
 header:
   image_fullwidth: "train_7.jpg"
 ---
-
+<br>
+Search this website!.
 {% include google_search.html %}
 
 <form style="padding-bottom: 200px;" onsubmit="google_search()" >
