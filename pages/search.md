@@ -3,6 +3,8 @@ layout: page
 show_meta: false
 title: "Search"
 permalink: "/search/"
+header:
+  image_fullwidth: "train_7.jpg"
 ---
 
 {% include google_search.html %}

@@ -11,13 +11,15 @@ header:
 widget-1:
   title: "About me"
   url: '/about/'
-  text: 'welcome'
   image: "kv_avk.jpg"
+widget-3:
+  title: "Code Home"
+  url: 'http://github.com/thayumanavar77'
+  image: "matrix.jpg"
 widget-2:
-  title: "Blogs"
+  title: "Blog"
   url: 'http://manavar.blogspot.com'
-  text: 'welcome'
-  image: "kv_avk.jpg"
+  image: "qubit.jpg"
 show_meta: false
 homepage: true
 ---

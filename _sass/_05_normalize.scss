@@ -46,6 +46,9 @@ summary {
   display: block;
 }
 
+header {
+  color: #000f55;
+}
 /**
  * 1. Correct `inline-block` display not defined in IE 8/9.
  * 2. Normalize vertical alignment of `progress` in Chrome, Firefox, and Opera.
@@ -78,6 +81,14 @@ audio:not([controls]) {
 template {
   display: none;
 }
+article, p {
+//  font-family: 'Gentium Book Basic'
+  color: #000;
+	text-align: justify;
+	line-height: 1.5;
+  font-size: 1.175rem;
+	font-weight: 500;
+}
 
 /* Links
    ========================================================================== */
@@ -85,7 +96,6 @@ template {
 /**
  * Remove the gray background color from active links in IE 10.
  */
-
 a {
   background-color: transparent;
 }
@@ -117,6 +127,7 @@ abbr[title] {
 b,
 strong {
   font-weight: bold;
+	color: #cc0000;
 }
 
 /**

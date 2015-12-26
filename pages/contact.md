@@ -1,11 +1,13 @@
 ---
 layout: page
-title: "Contact"
+title: ""
 show_meta: false
-teaser: "To get in touch please use the contact form."
 permalink: "/contact/"
+header:
+  image_fullwidth: "train_7.jpg"
 ---
-
+<center><h1>Let's get in touch!</h1></center>
+<p>Thank you for visiting my web home. If you would like to get in touch with me, please fill out the form.</p>
 <form action="//formspree.io/thayumk@gmail.com"
       method="POST">
 	<input type="hidden" name="_subject" value="Email from thayumanavarsv.github.io" />
