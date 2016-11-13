@@ -1,0 +1,137 @@
+---
+layout: default
+format: blog-index
+---
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
+    <meta name="viewport" content="width=device-width">
+    <meta name="description" content="{{ site.description }}">
+    <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}" />
+
+    <!-- Leaflet -->
+    <link rel="stylesheet" href="/css/leaflet-0.7.7.css" />
+    <script src="http://maps.googleapis.com/maps/api/js?sensor=false"></script>
+    <script src="/js/leaflet-0.7.7.js"></script>
+    <script type="application/gpx+xml" id="gpx-source">{{ content }}</script>
+
+    <!-- D3 -->
+    <script src="/js/d3-4.2.7.js" charset="utf-8"></script>
+    <script src="/js/torque.full.uncompressed.js" charset="utf-8"></script>
+    <script src="http://libs.cartocdn.com/cartodb.js/v3/3.15/cartodb.js"></script>
+    <!-- Custom CSS -->
+    <style>
+      #map {
+      height: 100%;
+      padding: 0;
+      margin: 0;
+      background-color: grey;
+      }
+      #torque-slider {
+      position:absolute;
+      bottom:18px;
+      right:25px;
+      width:300px;
+      }
+      #torque-pause {
+      position:absolute;
+      bottom:12px;
+      right:345px;
+      width:28px;
+      height: 26px;
+      padding: 1px 2px 2px 2px;
+      z-index: 1000;
+      border-radius: 3px;
+      cursor: pointer;
+      background-color: white;
+      background-repeat:no-repeat;
+      background-position:center;
+      }
+      #torque-pause.playing {
+      background-color: white; background-repeat:no-repeat; background-position:center;
+      }
+      #torque-time {
+      position: absolute;
+      top: 100px;
+      left: 50%;
+      color: white;
+      font-size: 31px;
+      font-family: Georgia, serif;
+      }
+      #livecode {
+      position: absolute;
+      left: 0;
+      top: 0;
+      bottom: 0;
+      width: 450px;
+      padding-left: 10px;
+      box-shadow: 0px 0px 5px 6px #ccc;
+      }
+      textarea {
+      color: rgba(0,0,0,0.9);
+      background-color:rgba(255,255,255,0.92);
+      position: absolute;
+      left: 10px;
+      top: 0;
+      bottom: 0;
+      padding: 0;
+      margin: 0;
+      border: none;
+      font-family: monospace;
+      font-size: 14px;
+      width: 350px;
+      border: 0;
+      outline: none;
+      padding: 40px;
+      }
+      .highlight {
+      font-family: monospace;
+      font-size: 19px;
+      color: #000;
+      }
+
+      #credits a { color: #06c; }
+      #credits {
+      position: absolute;
+      bottom: 50px;
+      left: 40px;
+      font-size: 17px;
+      font-family: Helvetica;
+      }
+
+  </style>
+  </head>
+  <body>
+
+<!--
+    <div class="page-content">
+      <div class="wrap">
+        <div class="post">
+
+          <header class="post-header">
+            <h1>{{ page.title }}</h1>
+            <p class="meta">{{ page.distance }} - {{ page.duration }}</p>
+            <p class="meta">{{ page.date | date: "%b %-d, %Y" }}</p>
+          </header>
+
+       <article class="post-content"> 
+            <div id="map">You need javascript active on your browser to see the map.</div>
+
+            <div id="torque-slider"></div>
+            <a id="torque-pause" class="playing"></a>
+                <div id="torque-time"></div>
+            <svg id="elevation" viewBox="0 0 1000 1"></svg>
+            <svg id="speed" viewBox="0 0 1000 1"></svg>
+          </article>
+
+        </div>
+      </div>
+    </div>
+-->
+    <div id="map">JavaScript needs to be enabled on the browser</div>
+    <script src="/js/gpx-trace.js"></script>
+  </body>
+</html>

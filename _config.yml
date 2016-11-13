@@ -22,6 +22,8 @@ description: "Personal Home Page"
 # This URL is the main adresse. Don't include a slash at the end.
 #
 #url: ""
+#url: "http://127.0.0.1:4000"
+#baseurl: "http://127.0.0.1:4000"
 url: "https://thayumanavar77.github.io"
 baseurl: "http://thayumanavar77.github.io"
 baseurl: ""
@@ -61,6 +63,7 @@ exclude: []
 include: ['.htaccess']
 
 
+
 # The language setting is used in /includes/header.html for html-settings
 language: "en"
 
@@ -71,6 +74,12 @@ exclude:
     - LICENSE
     - README.md
 
+
+# added by thayumanavar.
+collections:
+  traces:
+    permalink: /traces/:year/:month/:day/:title
+    output: true
 
 #
 #       ____       ____            ____ 

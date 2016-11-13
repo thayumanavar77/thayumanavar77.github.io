@@ -23,6 +23,10 @@
   url: "/misc/"
   side: right
 
+- title: "Physical (Run/Swim/Cycle!!!)"
+  url: "/traces"
+  side: right
+  
 - title: "Search"
   url: "/search/"
   side: right
