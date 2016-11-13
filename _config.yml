@@ -24,8 +24,8 @@ description: "Personal Home Page"
 #url: ""
 #url: "http://127.0.0.1:4000"
 #baseurl: "http://127.0.0.1:4000"
-url: "https://thayumanavar77.github.io"
-baseurl: "http://thayumanavar77.github.io"
+#url: "https://thayumanavar77.github.io"
+#baseurl: "http://thayumanavar77.github.io"
 baseurl: ""
 
 # This is for the editing function in _/includes/improve_content.html

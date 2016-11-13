@@ -194,6 +194,18 @@
     });
   });
 
+  var metadata = gpx.getElementsByTagName('metadata');
+  console.log(metadata);
+  var carto_tablename = htmlCollectionMap(gpx.getElementsByTagName('metadata'), function(metadata) {
+    var tablename = metadata.getElementsByTagName('cartotable').item(0).textContent;
+    return tablename;
+  });
+  /*
+  var cartotable = metadata.getElementsByTagName('time');
+  var carto_tablename = cartotable.item(0).textContent;
+  console.log(carto_tablename);
+*/
+
   var colors = ['red', 'blue', 'green', 'purple', 'yellow', 'orange'];
 /*
   var bounds;
@@ -259,7 +271,7 @@
     sql_api_port: '443',
     user       : 'thayumanavar77',
 /*    query      : 'https://thayumanavar77.carto.com:443/api/v2/sql?q=select * from public.table_11_11_2016_runkeeper_run',*/
-    table      : 'table_11_11_2016_runkeeper_run',
+    table      : carto_tablename,
     column     : 'time',
     countby    : 'count(cartodb_id)',
     resolution: 10,
