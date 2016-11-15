@@ -1,6 +1,6 @@
 ---
 layout: trace
-title: "10K Mini Forest Run - 13/11/2016"
+title: "10K Mini Forest Run - 15/11/2016"
 type: run
 distance: 10K
 date: 2016-11-15 05:57
