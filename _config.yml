@@ -47,11 +47,11 @@ logo: "thayumanavar.png"
 
 
 # Paginates all X entries
-paginate: 5
+#paginate: 5
 
 
 # Pagination path › Important for news page in /news/ to work
-paginate_path: "news/page:num"
+#paginate_path: "news/page:num"
 
 
 # Theme works best with Kramdown (using the table of contents function)
