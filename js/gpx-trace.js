@@ -79,7 +79,7 @@
         acc.sum -= acc.window.shift().speed;
       }
       if (acc.window.length > 0) {
-        acc.values.push({ time : point.time, speed : acc.sum / acc.window.length });
+        acc.values.push({ time : point.time, speed : acc.sum / acc.window.length });
       }
       return acc;
     }, { values : [], window : [], sum : 0, idx : 0 }).values;
@@ -207,6 +207,12 @@
 */
 
   var colors = ['red', 'blue', 'green', 'purple', 'yellow', 'orange'];
+
+  var latLngBounds= new google.maps.LatLngBounds();
+  track.forEach(function (segment, idx) {
+     for (var i = 0; i < segment.length; i++)
+        latLngBounds.extend(new google.maps.LatLng(segment[i].lat, segment[i].lon));
+  });
 /*
   var bounds;
   var map = L.map('map');
@@ -228,16 +234,19 @@
   }).addTo(map);
 */
   var map = new google.maps.Map(document.getElementById('map'), {
-    center: new google.maps.LatLng(12.894620, 77.592582),
-    zoom: 17,
-    mapTypeId:google.maps.MapTypeId.TERRAIN,
-    mapTypeControl:false,
+    center: latLngBounds.getCenter(),
+    zoom: 19,
+    mapTypeId: google.maps.MapTypeId.TERRAIN,
+    mapTypeControl:true,
     minZoom:1,
-    scaleControl: false,
+    scaleControl: true,
     streetViewControl: false,
     overviewMapControl: false,
+    heading: 90,
+    tilt: 45
   });
-/*
+  map.fitBounds(latLngBounds);
+  /*
   var bounds;
   track.forEach(function (segment, idx) {
     var points = segment.map(function (point) { return [point.lat, point.lon]; });
@@ -270,14 +279,13 @@
     provider   : 'sql_api',
     sql_api_port: '443',
     user       : 'thayumanavar77',
-/*    query      : 'https://thayumanavar77.carto.com:443/api/v2/sql?q=select * from public.table_11_11_2016_runkeeper_run',*/
     table      : carto_tablename,
     column     : 'time',
     countby    : 'count(cartodb_id)',
-    resolution: 10,
-    steps: 1000,
+    resolution: 2,
+    steps: 7000,
     blendmode  : 'lighter',
-    animationDuration: 50,
+    animationDuration: 120,
     loop: false,
     trails: true,
     map: map
@@ -286,8 +294,8 @@
   var CARTOCSS = [
     'Map {',
     '-torque-time-attribute: "cartodb_id";',
-    '-torque-aggregation-function: "1";',
-    '-torque-frame-count: 500;',
+    '-torque-aggregation-function: "count(cartodb_id)";',
+    '-torque-frame-count: 1000;',
     '-torque-animation-duration: 50;',
     '-torque-resolution: 1;',
     '-torque-data-aggregation:"cumulative";',
@@ -296,10 +304,10 @@
     '  marker-type: ellipse;',
     '  marker-fill-opacity: 1.0;',
     '  stroke-width: 1',
-    '  marker-fill: #F62817; ',
+    '  marker-fill: #000F55; ',
     '  marker-line-width: 6;',
     '  marker-line-opacity: 0.9;',
-    '  marker-line-color: #E42217;',
+    '  marker-line-color: #000F55;',
     '  marker-width: 2;',
     '  marker-height: 2;',
     '  marker-allow-overlap: true',
