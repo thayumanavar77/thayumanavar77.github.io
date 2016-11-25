@@ -1,11 +1,11 @@
 sudo: false
 language: ruby
+rvm:
+ - 2.3
 cache:
   bundler: true
   directories:
     - node_modules
-  rvm:
-  - 2.3
 
 script:
   - npm install
